@@ -5,18 +5,21 @@
 // Typography
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--global-header-color);
 }
 
 hr {
@@ -198,7 +201,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // font-family: monospace;
 
     p {
       display: inline-block;
@@ -398,10 +401,10 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       img {
