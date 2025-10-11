@@ -58,6 +58,8 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
   const elements = document.querySelectorAll(selector);
   Array.from(elements).map((element) => {
     let match = false;
+    
+    // Search in visible content
     getTextNodesInElementContainingText(element, search).forEach((node) => {
       // Modified variant of highlight-search-term
       // We return the non-matching elements in addition.
@@ -67,6 +69,19 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
         match = true;
       }
     });
+    
+    // Also search in abstract content (hidden divs)
+    const abstractElement = element.querySelector(".abstract.hidden");
+    if (abstractElement) {
+      getTextNodesInElementContainingText(abstractElement, search).forEach((node) => {
+        const rangesForSearch = getRangesForSearchTermInNode(node, search);
+        ranges.push(...rangesForSearch);
+        if (rangesForSearch.length > 0) {
+          match = true;
+        }
+      });
+    }
+    
     if (!match) {
       nonMatchingElements.push(element);
     }

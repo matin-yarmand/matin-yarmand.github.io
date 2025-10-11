@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
+    
+    // Remove previous abstract button highlighting
+    document.querySelectorAll(".abstract.btn").forEach((btn) => {
+      btn.classList.remove("highlighted-abstract");
+    });
 
     // highlight-search-term
     if (CSS.highlights) {
@@ -17,9 +22,32 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
       document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-        const text = element.innerText.toLowerCase();
-        if (text.indexOf(searchTerm) == -1) {
+        const visibleText = element.innerText.toLowerCase();
+        const abstractElement = element.querySelector(".abstract.hidden");
+        const abstractText = abstractElement ? abstractElement.innerText.toLowerCase() : "";
+        const combinedText = visibleText + " " + abstractText;
+        
+        if (combinedText.indexOf(searchTerm) == -1) {
           element.classList.add("unloaded");
+        } else if (abstractText.indexOf(searchTerm) !== -1) {
+          // Highlight abstract button if keyword is found in abstract
+          const abstractBtn = element.querySelector(".abstract.btn");
+          if (abstractBtn) {
+            abstractBtn.classList.add("highlighted-abstract");
+          }
+        }
+      });
+    }
+    
+    // Also check for abstract matches when using CSS highlights
+    if (CSS.highlights && searchTerm) {
+      document.querySelectorAll(".bibliography > li").forEach((element) => {
+        const abstractElement = element.querySelector(".abstract.hidden");
+        if (abstractElement && abstractElement.innerText.toLowerCase().indexOf(searchTerm) !== -1) {
+          const abstractBtn = element.querySelector(".abstract.btn");
+          if (abstractBtn) {
+            abstractBtn.classList.add("highlighted-abstract");
+          }
         }
       });
     }
