@@ -33,6 +33,7 @@ I'm an Assistant Professor of Software and Information Systems at UNC Charlotte.
 
 I received my PhD in Computer Science and Engineering from UC San Diego, working with [<u>Nadir Weibel</u>](https://hxi.ucsd.edu/author/nadir-weibel/) in the [<u>Design Lab</u>](https://designlab.ucsd.edu/). I hold a bachelor's degree in Computer Science from University of British Columbia and was a member of [<u>Designing for People (DfP)</u>](https://dfp.ubc.ca/)
 
-<h5>Research Themes</h5>
+<!-- <h5>Research Themes</h5> -->
+In today’s rapidly evolving labor market, workers must continuously re-skill to keep pace with new demands. My research draws inspiration from human coaching practices to design AI-driven, task-embedded, and attention-cueing learning systems that help people acquire these emerging skills. I especially focus on addressing training needs for complex and ill-defined domains beyond formal education, such as healthcare residency training and  fleet driver development.
 
-If these resonate with you, please...
+<span style="color: red !important;">If these ideas resonate with you, please email me with the subject line <em style="color: red !important;">"Applicant for Intelligent Coaching Systems + [Your Name]"</em>. I welcome 2 PhD students for Fall 2026, and sponsor undergraduate students via independent study/capstone courses!</span>

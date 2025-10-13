@@ -3,7 +3,7 @@ layout: page
 title: ECHO Lab
 permalink: /lab/
 description:
-nav: true
+nav: false
 nav_order: 6
 display_categories: [work, fun]
 horizontal: false
