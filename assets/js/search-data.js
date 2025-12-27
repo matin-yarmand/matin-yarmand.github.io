@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-team",
+          title: "Team",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -193,17 +200,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
