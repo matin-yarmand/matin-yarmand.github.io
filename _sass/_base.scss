@@ -200,13 +200,68 @@ ul.task-list input[type="checkbox"] {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     // font-family: monospace;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
+  }
+
+  .profile-content {
+    margin-top: 10px;
+  }
+}
+
+// Profiles page - 4 columns spanning full width
+.profiles-grid {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  
+  .profile-card {
+    width: 100%;
+    
+    figure {
+      width: 80%;
+      max-width: 200px;
+      margin: 0 auto 1rem auto;
+      padding: 0;
+      
+      picture {
+        width: 100%;
+        display: block;
+        aspect-ratio: 1 / 1;
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+        
+        &.rounded-circle {
+          aspect-ratio: 1 / 1;
+        }
+      }
+    }
+    
+    .more-info {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+}
+
+// Limit image size at 767px viewport width
+@media (max-width: 767px) {
+  .profiles-grid .profile-card figure img {
+    max-width: 558px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
