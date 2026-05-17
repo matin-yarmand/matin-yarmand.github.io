@@ -256,6 +256,17 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.profiles-alumni {
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .profiles-alumni-list {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+}
+
 // Limit image size at 767px viewport width
 @media (max-width: 767px) {
   .profiles-grid .profile-card figure img {

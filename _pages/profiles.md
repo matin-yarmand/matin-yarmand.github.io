@@ -24,8 +24,17 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <h5>Trisha Gite</h5>
-      <p>Master's Student</p>
+      <p>PhD Student</p>
       <a href="https://trishagite-com.webnode.page/" title="Website"><i class="fa-solid fa-link"></i></a>
+
+  - align: left
+    image: pushpita-saha.jpg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <h5>Pushpita Saha</h5>
+      <p>PhD Student</p>
+      <a href="https://www.linkedin.com/in/pushpitasaha/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
 
   - align: left
     image: kayla-cooper.png
@@ -37,15 +46,6 @@ profiles:
       <a href="http://www.linkedin.com/in/kaylacoop" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
 
   - align: left
-    image: tahiyat-chy.png
-    content:
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <h5>Tahiyat Chy</h5>
-      <p>Undergraduate Student</p>
-      <a href="https://www.linkedin.com/in/tahiyatchy" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
-
-  - align: left
     image: zach-vogel.jpg
     content:
     image_circular: true # crops the image to make it circular
@@ -53,15 +53,6 @@ profiles:
       <h5>Zach Vogel</h5>
       <p>Undergraduate Student</p>
       <a href="https://www.linkedin.com/in/zacharyrvogel" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
-
-  - align: left
-    image: mokshil-shah.png
-    content:
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <h5>Mokshil Shah</h5>
-      <p>Undergraduate Student</p>
-      <a href="http://www.linkedin.com/in/mokshil-shah" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
 
   - align: left
     image: aishwarya-kompella.png
@@ -72,5 +63,45 @@ profiles:
       <p>Undergraduate Student</p>
       <a href="https://www.linkedin.com/in/aishwarya-kompella-7a4492318/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
       
+  - align: left
+    image: amariah-robinson.jpeg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <h5>Amariah Robinson</h5>
+      <p>Undergraduate Student</p>
+      <a href="https://www.linkedin.com/in/amariahrobinson/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
+
+  - align: left
+    image: saige-hatfield.jpg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <h5>Saige Hatfield</h5>
+      <p>Undergraduate Student</p>
+      <a href="https://www.linkedin.com/in/hatfieldsaige/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
+
+  - align: left
+    image: shefali-aswal.png
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <h5>Shefali Aswal</h5>
+      <p>Undergraduate Student</p>
+      <a href="https://www.linkedin.com/in/shefali-aswal-2796261b8" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
+
+  - align: left
+    image: dominique-sanchez.jpg
+    content:
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <h5>Dominique Sanchez</h5>
+      <p>Undergraduate Student</p>
+      <a href="https://www.linkedin.com/in/dominique-sanchez-n/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
+
+alumni:
+  - (2026) <b>Tahiyat Chy</b> <i>College-wide Honors Scholar</i> 
+  - (2026) <b>Mokshil Shah</b> <i>Office of Undergraduate Research (OUR) Scholar</i> 
+  - (2026) <b>Jacob Bell</b> <i>University-wide Honors Scholar</i> 
 
 ---

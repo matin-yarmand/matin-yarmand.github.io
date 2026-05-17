@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending [<u>CRA Career Mentoring Workshop</u>](https://cra.org/events/2026-cra-career-mentoring-workshop/#overview) in DC 🏛️
+Attened [<u>CRA Career Mentoring Workshop</u>](https://cra.org/events/2026-cra-career-mentoring-workshop/#overview) in DC 🏛️

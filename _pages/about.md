@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p><strong>Matin Yarmand, PhD</strong></p>
     <p>Assistant Professor</p>
-    <p>Dept. Software & Information Systems</p>
+    <p>Dept. of Human-Centered Computing and Education</p>
     <p>College of Computing and Informatics</p>
     <p>UNC Charlotte</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an Assistant Professor of Software and Information Systems at UNC Charlotte. My research lies at the intersection of **Human-Computer Interaction**, **Educational Technology**, and **Healthcare**. I am a member of the [<u>Human-Centered Computing (HCC) Lab</u>](https://sites.google.com/uncc.edu/hci-cci/home), [<u>Center for Education Innovation and Research (CEIR)</u>](https://sites.google.com/view/cci-center-for-education-innov/home), [<u>Center for Humane AI Studies (CHAIS)</u>](https://sites.google.com/uncc.edu/center-for-humane-ai/home), and [<u>AI4Health</u>](https://research.charlotte.edu/centers-and-institutes/ai4health/).
+I'm an Assistant Professor of Computing and Informatics at UNC Charlotte. My research lies at the intersection of **Human-Computer Interaction**, **Educational Technology**, and **Healthcare**. I am a member of the [<u>Human-Centered Computing (HCC) Lab</u>](https://sites.google.com/uncc.edu/hci-cci/home), [<u>Center for Education Innovation and Research (CEIR)</u>](https://sites.google.com/view/cci-center-for-education-innov/home), [<u>Center for Humane AI Studies (CHAIS)</u>](https://sites.google.com/uncc.edu/center-for-humane-ai/home), and [<u>AI4Health</u>](https://research.charlotte.edu/centers-and-institutes/ai4health/).
 
 I received my PhD in Computer Science and Engineering from UC San Diego, working with [<u>Nadir Weibel</u>](https://hxi.ucsd.edu/author/nadir-weibel/) in the [<u>Design Lab</u>](https://designlab.ucsd.edu/). I hold a bachelor's degree in Computer Science from University of British Columbia and was a member of [<u>Designing for People (DfP)</u>](https://dfp.ubc.ca/)
 

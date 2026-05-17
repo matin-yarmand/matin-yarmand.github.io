@@ -31,6 +31,16 @@ layout: page
           </div>
         {% endfor %}
       </div>
+      {% if page.alumni and page.alumni.size > 0 %}
+        <div class="profiles-alumni mt-5">
+          <h2>Alumni</h2>
+          <ul class="profiles-alumni-list">
+            {% for name in page.alumni %}
+              <li>{{ name }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
       {% unless page.profiles.first.content %}
         {{ content }}
       {% endunless %}
