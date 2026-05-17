@@ -64,7 +64,7 @@ profiles:
       <a href="https://www.linkedin.com/in/aishwarya-kompella-7a4492318/" title="LinkedIn"><i class="fa-solid fa-link"></i></a>
       
   - align: left
-    image: amariah-robinson.jpeg
+    image: amariah-robinson.jpg
     content:
     image_circular: true # crops the image to make it circular
     more_info: >
